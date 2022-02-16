@@ -1,0 +1,98 @@
+body{
+    background: linear-gradient(to bottom right, hsl(0, 0%, 100%), hsl(41, 60%, 96%), hsl(240, 100%, 95%));
+    min-height: 100%;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    animation: gradient 5s ease infinite alternate-reverse ;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 50%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    body{
+        min-width: 110%;
+    }
+}
+
+h1{
+    font-family: "Lora", Palatino, Georgia, serif;
+    text-align: center;
+    font-size: 3rem;
+}
+
+h2{
+    font-family: "Lora", Palatino, Georgia, serif;
+}
+
+article{
+    max-width: 90%;
+    margin: auto;
+}
+
+.coding-language-box{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: hsl(279, 46%, 33%);
+    background-color: hsl(0, 0%, 15%)/*hsla(0, 0%, 60%, .2)*//*hsla(240, 100%, 95%, .75)*/;
+    text-align: center;
+    max-width: 94%;
+    margin: auto;
+    font-size: 1.2rem;
+}
+
+.coding-icons{
+    font-size: 4rem;
+}
+
+.coding-p{
+    display: inline-block;
+    margin: .25rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.coding-p, .coding-h2{
+    color: hsl(41, 60%, 96%);
+}
+
+#html-icon{
+    color: hsl(30, 100%, 50%)  
+}
+
+#css-icon{
+    color: hsl(210, 100%, 50%)
+}
+
+#javascript-icon{
+    color: hsl(60, 100%, 50%)
+}
+
+.project{
+    max-width: 90%;
+    margin: auto;
+}
+
+figure{
+    display: inline-block;
+    border-style: solid;
+    border-color: hsl(279, 46%, 33%);
+    margin: 1%;
+}
+
+figcaption{
+    text-align: center;
+    font-family: Garamond, serif;
+}
+
+p{
+    font-family: Garamond, serif;
+}
