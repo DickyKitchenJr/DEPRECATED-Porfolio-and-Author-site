@@ -1,0 +1,130 @@
+html{
+    background: linear-gradient(to bottom right, hsl(0, 0%, 100%), hsl(41, 60%, 96%), hsl(240, 100%, 95%));
+    min-height: 100%;
+    background-size: 300%;
+    background-repeat: no-repeat;
+    animation: gradient 5s ease infinite alternate-reverse ;
+}
+
+@keyframes gradient {
+    0%{
+        background-position: 0%;
+    }
+    50%{
+        background-position: 50%;
+    }
+    100%{
+        background-position: 100%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    html{
+        min-width: 110%;
+    }
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*top row*/
+.box1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1 {
+    display: inline-block;
+    font-size: 6rem;
+    text-align: center;
+    font-family: "Lora", Palatino, Georgia, serif;
+    margin: 0;
+}
+
+
+.title-tilt{
+    writing-mode: vertical-rl;
+}
+
+figure{
+    display: inline-block;
+    max-width: 25%;
+    margin: 1% 0% 0% 1%;
+}
+
+.self-pic{
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.self-pic-id{
+    font-family: Garamond, serif;
+    font-weight: bolder;
+    text-align: center;
+    color: black;
+    background-color: hsla(0, 0%, 60%, .75);
+    width: 100%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    header{
+        padding-bottom: 1em;
+    }
+
+    h1{
+        display: block;
+        font-size: 5rem;
+        text-align: center;
+        font-family: "Lora", Palatino, Georgia, serif;
+    }
+
+    figure{
+        display: block;
+        max-width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/*middle row*/
+h2{
+    font-family: "Lora", Palatino, Georgia, serif;
+}
+
+article{
+    display: inline;
+    color: black;
+    text-align: center;
+}
+
+#writer{
+    color: darkorchid;
+}
+
+#coder{
+    color: crimson;
+}
+
+/*bottom row*/
+h3{
+    font-family: "Lora", Palatino, Georgia, serif;
+}
+
+footer{
+    display: inline;
+    text-align: center;
+}
+
+#email-icon, #insta-icon {
+    font-size: 1.5rem;
+}
