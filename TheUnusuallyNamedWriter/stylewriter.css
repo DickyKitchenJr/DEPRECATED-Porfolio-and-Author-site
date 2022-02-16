@@ -1,0 +1,134 @@
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightsteelblue;
+    padding: 3%;
+  }
+  
+  h1{
+    text-align: center;
+    color: white;
+    background-image: url(../resources/images/woodspath.jpeg);
+    background-repeat: no-repeat; 
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    font-family: "Lora", Palatino, Georgia, serif;
+    font-size: 3em;
+    padding: 6%;
+    animation: switch 3s linear infinite alternate-reverse;
+}
+
+@keyframes switch {
+    0%{
+        background-image: url(../resources/images/woodspath2.jpeg);
+    }
+    33%{
+        background-image: url(../resources/images/woodspath3.jpeg);
+    }
+    66%{
+        background-image: url(../resources/images/woodspath4.jpeg);
+    }
+    100%{
+        background-image: url(../resources/images/woodspath5.jpeg);
+    }
+}
+
+  h1 span {
+    display: inline-block;
+    animation: move 3s ease-in-out infinite alternate-reverse;
+  }
+  
+  @keyframes move {
+    0% {
+      transform: translate(-30%, 0);
+    }
+    50% {
+      text-shadow: 0 25px 50px hsla(279, 46%, 33%, 1);
+    }
+    100% {
+      transform: translate(30%, 0);
+    }
+  }
+  
+  @media only screen and (max-width: 1000px){
+    h1{
+      font-size: 2.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 800px){
+    h1{
+      font-size: 1.5rem;
+    }
+  }
+
+  @media only screen and (max-width: 500px){
+    h1{
+      font-size: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 300px){
+    h1{
+      font-size: .7rem;
+    }
+  }
+
+
+  .mission-statement{
+    text-align: center;
+  }
+  
+  #products{
+    text-align: center;
+    color: white;
+    background-color: black;
+  }
+  
+  .books{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: lightsteelblue;
+  }
+  
+  .book-link{
+    margin: 1%;
+  }
+  
+  .childrens-book{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .team{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: start;
+  }
+  
+  .team-member1{
+    max-width: 50%;
+    object-fit: cover;
+  }
+  
+  .figcap-team1{
+    max-width: 50%;
+  }
+  
+  .team2{
+    max-width: 100%;
+    object-fit: cover;
+  }
+  
+  .team-member2{
+    max-width: 175%;
+    object-fit: cover;
+  }
+  
+  figcaption{
+    text-align: center;
+  }
