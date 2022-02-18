@@ -41,7 +41,21 @@ article {
     padding-right: .25%;
 }
 
-footer {
-    text-align: center;
-    font-size: 0.6rem;
+h3{
+    font-size: 1.2rem;
+    text-decoration: underline;
+}
+
+.picture2 {
+    max-width: 50%;
+    max-height: 50%;
+}
+
+.end-note {
+    font-size: 0.4rem;
+}
+
+.footer-gif {
+    max-width: 20%;
+    max-height: 20%;
 }
