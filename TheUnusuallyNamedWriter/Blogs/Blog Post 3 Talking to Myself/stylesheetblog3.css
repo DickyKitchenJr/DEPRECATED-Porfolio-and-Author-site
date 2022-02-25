@@ -1,0 +1,52 @@
+.banner {
+max-width: 70%;
+margin-right: 15%;
+margin-left: 15%;
+}
+
+.title {
+    text-align: center;
+    font-family: "Lora", Palatino, Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkslategray;
+    line-height: 1.25;
+}
+
+.subtitle {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media only screen and (max-width: 500px){
+    .title {
+        font-size: 1rem;
+    }
+
+    .subtitle {
+        font-size: .75rem;
+    }
+}
+
+.author {
+    font-style: italic;
+    font-size: 1.25rem;
+    background-color: hsla(200, 60%, 80%, .5);
+    display: inline-block;
+}
+
+article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    padding-right: .25%;
+}
+
+.young {
+    color:rgb(2, 201, 101);
+    text-decoration: underline;
+}
+
+.now {
+    color:rgb(48, 129, 211);
+    text-decoration: underline;
+}
