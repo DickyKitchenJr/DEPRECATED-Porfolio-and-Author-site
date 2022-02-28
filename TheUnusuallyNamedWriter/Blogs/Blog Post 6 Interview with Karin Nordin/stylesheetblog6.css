@@ -1,0 +1,58 @@
+.banner {
+max-width: 70%;
+margin-right: 15%;
+margin-left: 15%;
+}
+
+.title {
+    text-align: center;
+    font-family: "Lora", Palatino, Georgia, serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: darkslategray;
+    line-height: 1.25;
+}
+
+
+@media only screen and (max-width: 500px){
+    .title {
+        font-size: 1rem;
+    }
+}
+
+.author {
+    font-style: italic;
+    font-size: 1.25rem;
+    background-color: hsla(200, 60%, 80%, .5);
+    display: inline-block;
+}
+
+article {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-left: 1%;
+    padding-right: .25%;
+}
+
+.karin_pic, .where_ravens_roost_book_pic, .watson_pic {    
+    max-width: 20%;
+}
+
+.watson_with_laptop {    
+    max-width: 35%;
+}
+
+.karin_pic{
+    margin-left: 30%;
+}
+
+.watson_pic{
+    margin-left: 23.5%;
+}
+
+.dicky {
+    color:rgb(255, 172, 17);
+}
+
+.karin {
+    color:rgb(32, 143, 177)
+}
