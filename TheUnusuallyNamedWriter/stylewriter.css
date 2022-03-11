@@ -1,4 +1,4 @@
-/*Title section*/
+/*Title*/
 h1{
   text-align: center;
   color: white;
@@ -33,7 +33,7 @@ h1 span {
   animation: move 3s ease-in-out infinite alternate-reverse;
   }
   
-@keyframes move {
+  @keyframes move {
     0% {
       transform: translate(-30%, 0);
     }
@@ -45,29 +45,30 @@ h1 span {
     }
   }
   
-@media only screen and (max-width: 1000px){
+  @media only screen and (max-width: 1000px){
     h1{
       font-size: 2.5rem;
     }
   }
 
-@media only screen and (max-width: 800px){
+  @media only screen and (max-width: 800px){
     h1{
       font-size: 1.5rem;
     }
   }
 
-@media only screen and (max-width: 500px){
+  @media only screen and (max-width: 500px){
     h1{
       font-size: 1rem;
     }
   }
 
-@media only screen and (max-width: 300px){
+  @media only screen and (max-width: 300px){
     h1{
       font-size: .7rem;
     }
   }
+
 
 /*Mission Statement*/
 
@@ -120,34 +121,82 @@ h1 span {
   }
   
 .book-link{
-  margin: 1%;
-  }
-  
-.childrens-book{
-  max-width: 100%;
-  object-fit: cover;
-  }
-  
-.team{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: start;
-  }
-  
-.team-member1{
-  max-width: 50%;
-  object-fit: cover;
-  }
-  
-.figcap-team1{
-  max-width: 50%;
-  }
-  
-figcaption{
-  text-align: center;
+  display: contents;
   }
 
+.book-pic{
+  max-width: 20%;
+  margin: 1%;
+}
+
+/*Blurbs and Reviews*/
+#blurbs-reviews{
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+.book-title{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  color: darkslategray;
+  background-color: lightsteelblue;
+}
+
+article{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.left-column{
+  display: inline-block;
+  max-width: 45%;
+}
+
+.blurb{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  background-color: gainsboro;
+  margin: 0% 1%;
+}
+
+.book-blurb{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0.5% 1%;
+}
+
+.right-column{
+  display: inline-block;
+  max-width: 45%;
+}
+.book-review{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-style: italic;
+  background-color: gainsboro;
+  margin: 0% 1%;
+}
+
+.review{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin: 0.5% 1%;
+}
+
+.reviewer{
+  text-decoration: underline;
+}
+
+.star{
+  color: goldenrod;
+}
+
+.end{
+  background-color: black;
+}
+
+/*Footer*/
 footer{
   text-align: center;
 }
