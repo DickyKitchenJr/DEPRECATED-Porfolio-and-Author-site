@@ -35,18 +35,16 @@ h2{
 }
 
 article{
-    max-width: 90%;
-    margin: auto;
+    margin: 0% 3%;
 }
 
 .coding-language-box{
     border-style: solid;
     border-radius: 15px;
     border-color: hsl(279, 46%, 33%);
-    background-color: hsl(0, 0%, 15%)/*hsla(0, 0%, 60%, .2)*//*hsla(240, 100%, 95%, .75)*/;
+    background-color: hsl(0, 0%, 15%);
     text-align: center;
-    max-width: 94%;
-    margin: auto;
+    margin: 0% 3%;
     font-size: 1.2rem;
 }
 
@@ -77,8 +75,7 @@ article{
 }
 
 .project{
-    max-width: 90%;
-    margin: auto;
+    margin: 0% 3%;
 }
 
 figure{
