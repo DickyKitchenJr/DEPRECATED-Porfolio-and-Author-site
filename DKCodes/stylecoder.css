@@ -78,6 +78,13 @@ article{
     margin: 0% 3%;
 }
 
+.project-blocks{
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 figure{
     display: inline-block;
     border-style: solid;
