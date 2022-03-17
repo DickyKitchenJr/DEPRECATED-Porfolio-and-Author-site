@@ -85,14 +85,19 @@ article{
     justify-content: space-around;
 }
 
-figure{
-    display: inline-block;
+.project-link{
+    display: inline-flex;
+    flex-flow: column;
     border-style: solid;
     border-color: hsl(279, 46%, 33%);
-    margin: 1%;
+    margin: 2%;
 }
 
-figcaption{
+.project-pics{
+    max-width: 100%;
+}
+
+.link-description{
     text-align: center;
     font-family: Garamond, serif;
 }
