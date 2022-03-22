@@ -152,6 +152,7 @@ article{
 .left-column{
   display: inline-block;
   max-width: 45%;
+  background-color: #C5DCFA;
 }
 
 .blurb{
@@ -170,7 +171,9 @@ article{
 .right-column{
   display: inline-block;
   max-width: 45%;
+  background-color: #C5DCFA;
 }
+
 .book-review{
   font-family: Georgia, 'Times New Roman', Times, serif;
   text-align: center;
