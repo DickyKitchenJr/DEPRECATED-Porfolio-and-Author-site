@@ -2,7 +2,7 @@ header{
     text-align: center;
 }
 
-.box1{
+.box1, .box2, .box3{
     display: block;
     background-color: hsla(0, 0%, 100%, 0.5);
     border: 2px solid black;
@@ -17,12 +17,11 @@ button{
     margin: 0 auto;
 }
 
-h2, #joke{
+h2, #joke, .name-ad,.new-name, #nameme{
     text-align: center;
 }
 
-.box2{
-    display: block;
-    width: fit-content;
-    margin: 1.5vw auto;
+#nameme{
+    font-size: 1.75vw;
+    color: teal;
 }
