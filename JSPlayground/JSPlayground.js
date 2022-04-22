@@ -1,4 +1,4 @@
-//HSL Gradient change section
+//Random HSL Gradient Generator section
 
 //create random HSL
 function newHSL(){
@@ -34,7 +34,7 @@ clickHSL.onclick = newLinearGradient;
 let resetHSL = document.getElementById('resetHSL');
 resetHSL.onclick = plainHSL;
 
-//Dad joke section
+//Joke Generator section
 
 //array of jokes
 let jokes = ['Did you hear the one about the guy who fell through the eyeglass factory? Yeah... He made a real spectacle of himself.',
@@ -114,7 +114,7 @@ function tellAJoke() {
 let clickJoke = document.getElementById('jokebutton')
 clickJoke.onclick = tellAJoke;
 
-//Non-sense Name Generator
+//Non-sense Name Generator section
 
 function nonSenseName() {
     let consonant = ['b','c','d','f','g','h','j','k','l','m','n','p','q','r','s','t','v','w','x','z'];
