@@ -22,6 +22,6 @@ h2, #joke, .name-ad,.new-name, #nameme{
 }
 
 #nameme{
-    font-size: 1.75vw;
+    font-size: 1.75rem;
     color: teal;
 }
