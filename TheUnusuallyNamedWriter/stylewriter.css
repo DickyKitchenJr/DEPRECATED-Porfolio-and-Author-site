@@ -199,6 +199,23 @@ article{
   background-color: black;
 }
 
+@media only screen and (max-width: 600px){
+  article{
+    display: block;
+  }
+
+  .left-column{
+    display: block;
+    max-width: 100%;
+    margin-bottom: 3vw;
+  }
+
+  .right-column{
+    display: block;
+    max-width: 100%;
+  }
+}
+
 /*Footer*/
 footer{
   text-align: center;
