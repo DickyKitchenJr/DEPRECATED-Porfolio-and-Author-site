@@ -91,6 +91,14 @@ article{
     color: hsl(60, 100%, 50%)
 }
 
+#github-icon{
+    color: hsl(0, 0%, 100%);
+}
+
+#vscode-icon{
+    max-width: 4.7vw;
+}
+
 .project{
     margin: 0% 3%;
 }
