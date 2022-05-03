@@ -1,0 +1,107 @@
+/*Navigation*/
+.nav-list{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.75vw;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-evenly;
+    color: rgb(229, 227, 227);
+    background-color: rgb(103, 198, 201);
+}
+
+@media only screen and (max-width: 600px){
+    .nav-list{
+        font-size: 2.5vw;
+    }    
+}
+
+/*Banner*/
+h1{
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    font-size: 5vw;
+    background-image: url('Images/Image1.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 2.5vw 0;
+}
+
+/*Mission Statement*/
+.statement{
+    font-size: 2.5vw;
+    text-align: center;
+    padding-left: 1vw;
+}
+
+.mission-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.img-mission{
+    max-width: 30%;
+    height: 30%;
+    animation: dog 3s ease-in forwards;
+}
+
+@keyframes dog {
+    10% {transform: scaleX(1);}
+    30% {transform: scaleX(-1)}
+    60% {transform: scaleX(-1) translateX(-2vw)}
+    70% {transform: scaleX(-1) translateX(-1vw)}
+    85% {transform: scaleX(-1) translateX(-3vw)}
+    100% {transform: scaleX(-1) translateX(0vw)}
+}
+
+/*About Us*/
+.text-about{
+    font-size: 2.5vw;
+}
+
+.about-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.img-about{
+    max-width: 30%;
+    height: 30%;
+    animation: dog2 3s ease-in 0s 3;
+}
+
+
+@keyframes dog2 {
+    0% {transform: scaleX(1);}
+    20% {transform: scaleX(-1)}
+    35% {transform: scaleX(1)}
+    45% {transform: scaleX(-1)}
+    55% {transform: scaleX(1) translateY(2vw)}
+    60% {transform: scaleX(1) translateY(0vw)}
+    70% {transform: scaleX(1) translateY(2vw)}
+    75%{transform: scaleX(1) translateY(0vw)}
+    95%{transform: scaleX(1) translateY(2vw)}
+    100%{transform: scaleX(1) translateY(0vw)}
+}
+
+/*Footer*/
+.contact-info{
+    text-align: center;
+    font-size: 2.25vw;
+}
+
+/*General styles*/
+h2{
+    font-size: 3vw;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+.text-about, p{
+    font-family: 'Roboto', sans-serif;
+}
