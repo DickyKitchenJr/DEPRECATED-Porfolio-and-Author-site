@@ -5,8 +5,9 @@
     display: flex;
     flex-flow: row;
     justify-content: space-evenly;
-    color: rgb(229, 227, 227);
-    background-color: rgb(103, 198, 201);
+    color: darkkhaki;
+    background-color: antiquewhite;
+    padding: 0;
 }
 
 @media only screen and (max-width: 600px){
@@ -86,6 +87,24 @@ h1{
     75%{transform: scaleX(1) translateY(0vw)}
     95%{transform: scaleX(1) translateY(2vw)}
     100%{transform: scaleX(1) translateY(0vw)}
+}
+
+/*Products & Services*/
+
+.products-and-services{
+    padding-left: 3vw;
+}
+
+.box1{
+    display: inline-block;
+    text-align: center;
+    color: whitesmoke;
+    background-image: url("Images/mikkel-bech-yjAFnkLtKY0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    font-size: 2.5vw;
+    margin: 1vw;
+    padding: 4vw 8vw;
 }
 
 /*Footer*/
