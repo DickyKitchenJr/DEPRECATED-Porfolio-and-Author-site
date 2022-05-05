@@ -130,6 +130,11 @@ h1 span {
 }
 
 /*Blurbs and Reviews*/
+.book-sample{
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 #blurbs-reviews{
   text-align: center;
   color: white;
