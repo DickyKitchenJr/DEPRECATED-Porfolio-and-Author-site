@@ -1,132 +1,142 @@
-body{
-    background: linear-gradient(to bottom right, hsl(0, 0%, 100%), hsl(41, 60%, 96%), hsl(240, 100%, 95%));
-    min-height: 100%;
-    background-size: 300%;
-    background-repeat: no-repeat;
-    animation: gradient 5s ease infinite alternate-reverse ;
+body {
+  background: linear-gradient(
+    to bottom right,
+    hsl(0, 0%, 100%),
+    hsl(41, 60%, 96%),
+    hsl(240, 100%, 95%)
+  );
+  min-height: 100%;
+  background-size: 300%;
+  background-repeat: no-repeat;
+  animation: gradient 5s ease infinite alternate-reverse;
 }
 
 @keyframes gradient {
-    0%{
-        background-position: 0%;
-    }
-    50%{
-        background-position: 50%;
-    }
-    100%{
-        background-position: 90%;
-    }
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 50%;
+  }
+  100% {
+    background-position: 90%;
+  }
 }
 
-h1{
-    font-family: "Lora", Palatino, Georgia, serif;
-    text-align: center;
-    font-size: 4vw;
+h1 {
+  font-family: "Lora", Palatino, Georgia, serif;
+  text-align: center;
+  font-size: 4vw;
 }
 
 @media screen and (max-width: 900px) {
-    h1{
-        font-size: 7vw;
-    }
+  h1 {
+    font-size: 7vw;
+  }
 }
 
-h2{
-    font-family: "Lora", Palatino, Georgia, serif;
+h2 {
+  font-family: "Lora", Palatino, Georgia, serif;
+  font-size: 3vw;
+}
+
+@media screen and (max-width: 700px) {
+  h2 {
+    font-size: 5vw;
+  }
+}
+
+.about-me {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 700px) {
+  .about-me {
     font-size: 3vw;
+  }
 }
 
-@media screen and (max-width: 700px) {
-    h2{
-        font-size: 5vw;
-    }
+article {
+  margin: 0% 3%;
 }
 
-.about-me{
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5vw;
+.coding-language-box {
+  border-style: solid;
+  border-radius: 15px;
+  border-color: hsl(279, 46%, 33%);
+  background-color: hsl(0, 0%, 15%);
+  text-align: center;
+  margin: 0% 3%;
 }
 
-@media screen and (max-width: 700px) {
-    .about-me{
-        font-size: 3vw;
-    }    
+.coding-icons {
+  font-size: 4.5vw;
 }
 
-article{
-    margin: 0% 3%;
+.coding-p {
+  display: inline-block;
+  margin: 0.25rem;
+  font-family: "Times New Roman", Times, serif;
 }
 
-.coding-language-box{
-    border-style: solid;
-    border-radius: 15px;
-    border-color: hsl(279, 46%, 33%);
-    background-color: hsl(0, 0%, 15%);
-    text-align: center;
-    margin: 0% 3%;
+.coding-p,
+.coding-h2 {
+  color: hsl(41, 60%, 96%);
 }
 
-.coding-icons{
-    font-size: 4.5vw;
+#html-icon {
+  color: hsl(30, 100%, 50%);
 }
 
-.coding-p{
-    display: inline-block;
-    margin: .25rem;
-    font-family: 'Times New Roman', Times, serif;
+#css-icon {
+  color: hsl(210, 100%, 50%);
 }
 
-.coding-p, .coding-h2{
-    color: hsl(41, 60%, 96%);
+#javascript-icon {
+  color: hsl(60, 100%, 50%);
 }
 
-#html-icon{
-    color: hsl(30, 100%, 50%)  
+#github-icon {
+  color: hsl(0, 0%, 100%);
 }
 
-#css-icon{
-    color: hsl(210, 100%, 50%)
+#vscode-icon {
+  max-width: 4.7vw;
 }
 
-#javascript-icon{
-    color: hsl(60, 100%, 50%)
+#wordpress-icon {
+  color: hsl(195, 48%, 54%);
 }
 
-#github-icon{
-    color: hsl(0, 0%, 100%);
+.project {
+  margin: 0% 3%;
 }
 
-#vscode-icon{
-    max-width: 4.7vw;
+.project-blocks {
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
-.project{
-    margin: 0% 3%;
+.project-link {
+  display: inline-flex;
+  flex-flow: column;
+  border-style: solid;
+  border-color: hsl(279, 46%, 33%);
+  margin: 2% 1%;
 }
 
-.project-blocks{
-    display: flex;
-    flex-flow: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+.project-pics {
+  max-width: 100%;
 }
 
-.project-link{
-    display: inline-flex;
-    flex-flow: column;
-    border-style: solid;
-    border-color: hsl(279, 46%, 33%);
-    margin: 2% 1%;
+.link-description {
+  text-align: center;
+  font-family: Garamond, serif;
 }
 
-.project-pics{
-    max-width: 100%;
-}
-
-.link-description{
-    text-align: center;
-    font-family: Garamond, serif;
-}
-
-p{
-    font-family: Garamond, serif;
+p {
+  font-family: Garamond, serif;
 }
