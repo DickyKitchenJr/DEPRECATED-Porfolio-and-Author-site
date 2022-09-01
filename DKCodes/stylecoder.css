@@ -70,8 +70,14 @@ article {
   margin: 0% 3%;
 }
 
+.coding-h2{
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .coding-icons {
-  font-size: 4.5vw;
+  font-size: 3vw;
 }
 
 .coding-p {
@@ -102,11 +108,15 @@ article {
 }
 
 #vscode-icon {
-  max-width: 4.7vw;
+  max-width: 2.5vw;
 }
 
 #wordpress-icon {
   color: hsl(195, 48%, 54%);
+}
+
+#react-icon {
+  color: hsl(195, 91%, 69%);
 }
 
 .project {
