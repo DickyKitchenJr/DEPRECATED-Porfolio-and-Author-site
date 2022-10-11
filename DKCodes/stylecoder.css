@@ -25,16 +25,10 @@ h2 {
   }
 }
 
-.about-me {
-  font-family: "Times New Roman", Times, serif;
-  font-size: 1.5vw;
+.about-me-p {
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
-@media screen and (max-width: 700px) {
-  .about-me {
-    font-size: 3vw;
-  }
-}
 
 article {
   margin: 0% 3%;
@@ -130,9 +124,5 @@ article {
 
 .link-description {
   text-align: center;
-  font-family: Garamond, serif;
-}
-
-p {
-  font-family: Garamond, serif;
+  font-family: 'Source Sans Pro', sans-serif;
 }
