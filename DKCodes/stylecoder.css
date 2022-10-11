@@ -1,4 +1,4 @@
-body{
+body {
   background-image: url("../resources/images/patterned-background.png");
 }
 
@@ -26,9 +26,8 @@ h2 {
 }
 
 .about-me-p {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
-
 
 article {
   margin: 0% 3%;
@@ -124,5 +123,5 @@ article {
 
 .link-description {
   text-align: center;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
 }
