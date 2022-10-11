@@ -116,7 +116,7 @@ article {
 }
 
 .project-link {
-  background-color: hsla(76, 72%, 75%, 0.5);
+  background-color: hsla(130, 100%, 66%, 0.167);
   display: inline-flex;
   flex-flow: column;
   border-style: solid;
