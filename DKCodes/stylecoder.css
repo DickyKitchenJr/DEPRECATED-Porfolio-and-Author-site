@@ -131,6 +131,21 @@ article {
   font-family: "Source Sans Pro", sans-serif;
 }
 
+.modal-button {
+  width: fit-content;
+  font-family: "Source Sans Pro", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  background-color: hsl(130, 84%, 83%);
+  color: hsl(279, 46%, 33%);
+}
+
+.modal-button:hover {
+  background-color: cadetblue;
+  color: beige;
+}
+
 .modal-box::backdrop {
   background-image: linear-gradient(
     to bottom right,
