@@ -132,9 +132,9 @@ article {
 }
 
 @media only screen and (max-width: 700px) {
-  .modal-box{
+  .modal-box {
     max-width: 85vw;
-    font-size: .8rem;
+    font-size: 0.8rem;
   }
 }
 
@@ -162,15 +162,15 @@ article {
   opacity: 0.4;
 }
 
-.modal-box p{
+.modal-box p {
   text-decoration: underline;
   font-weight: bold;
 }
 
-.modal-close{
-    border: none;
-    background-color: white;
-    color: rgb(173, 3, 3);
-    float: right;
-    font-size: 1.5rem
+.modal-close {
+  border: none;
+  background-color: white;
+  color: rgb(173, 3, 3);
+  float: right;
+  font-size: 1.5rem;
 }
