@@ -125,3 +125,7 @@ article {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+.modal-box{
+  max-width: 60vw;
+}
