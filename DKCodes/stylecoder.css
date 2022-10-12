@@ -126,12 +126,16 @@ article {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-.modal-box{
+.modal-box {
   max-width: 60vw;
   font-family: "Source Sans Pro", sans-serif;
 }
 
 .modal-box::backdrop {
-  background-image: linear-gradient(to bottom right, rgb(75, 143, 212), rgb(205, 205, 50));
-  opacity: .4;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(75, 143, 212),
+    rgb(205, 205, 50)
+  );
+  opacity: 0.4;
 }
