@@ -1,13 +1,25 @@
-const modal = document.querySelector('.modal');
+const modal = document.querySelector(".modal");
 const openModal = document.querySelector(".modal-open");
 const closeModal = document.querySelector(".modal-close");
 
-openModal.addEventListener('click', () => {
-    modal.showModal();
+openModal.addEventListener("click", () => {
+  modal.showModal();
 });
 
-closeModal.addEventListener('click', () => {
-    modal.close();
+closeModal.addEventListener("click", () => {
+  modal.close();
+});
+
+const modal1 = document.querySelector(".modal1");
+const openModal1 = document.querySelector(".modal-open1");
+const closeModal1 = document.querySelector(".modal-close1");
+
+openModal1.addEventListener("click", () => {
+  modal1.showModal();
+});
+
+closeModal1.addEventListener("click", () => {
+  modal1.close();
 });
 
 const modal2 = document.querySelector(".modal2");

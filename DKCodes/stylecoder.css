@@ -2,6 +2,12 @@ body {
   background-image: url("../resources/images/patterned-background.png");
 }
 
+.landing-page-link{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: .75rem;
+  margin-left: 1rem;
+}
+
 h1 {
   font-family: "Lora", Palatino, Georgia, serif;
   text-align: center;
@@ -27,6 +33,41 @@ h2 {
 
 .about-me-p {
   font-family: "Source Sans Pro", sans-serif;
+}
+
+.about-me-modal{
+  max-width: 60vw;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-me-modal {
+    max-width: 85vw;
+    font-size: 0.8rem;
+  }
+}
+
+.about-me-modal::backdrop {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(75, 143, 212),
+    rgb(205, 205, 50)
+  );
+  opacity: 0.4;
+}
+
+.about-me-button{
+  border: none;
+  background-color: transparent;
+  color: blue;
+  text-decoration: underline;
+  padding: 0;
+}
+
+.about-me-button:hover {
+  background-color: cadetblue;
+  color: beige;
+  cursor: pointer;
 }
 
 article {
@@ -162,7 +203,7 @@ article {
   opacity: 0.4;
 }
 
-.modal-box p {
+.modal-box p, .skills {
   text-decoration: underline;
   font-weight: bold;
 }
