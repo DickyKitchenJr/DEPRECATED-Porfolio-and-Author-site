@@ -103,10 +103,15 @@ article, .project {
 }
 
 @media only screen and (max-width: 450px) {
+  .coding-language-box {
+    padding-left: 3.25rem;
+    padding-right: 3.25rem;
+  }
+
   .coding-h2 {
     font-size: 1.15rem;
   }
-  
+
   .coding-icons {
     font-size: 0.7rem;
   }
