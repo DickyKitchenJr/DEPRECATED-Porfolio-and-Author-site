@@ -145,7 +145,8 @@ article, .project {
 }
 
 #vscode-icon {
-  max-width: 2.5vw;
+  max-width: 4%;
+  margin-bottom: -.15rem;
 }
 
 #wordpress-icon {
