@@ -2,6 +2,8 @@ body {
   background-image: url("../resources/images/patterned-background.png");
 }
 
+/* Page Banner Section */
+
 .landing-page-link {
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.75rem;
@@ -19,6 +21,8 @@ h1 {
     font-size: 7vw;
   }
 }
+
+/* About Me and Skills Section */
 
 h2 {
   font-family: "Lora", Palatino, Georgia, serif;
@@ -157,6 +161,8 @@ article,
   color: hsl(195, 91%, 69%);
 }
 
+/* Projects section */
+
 .project-blocks {
   display: flex;
   flex-flow: row;
@@ -181,6 +187,9 @@ article,
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }
+
+
+/* Modals */
 
 .modal-box {
   max-width: 60vw;
