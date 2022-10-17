@@ -1,3 +1,5 @@
+// handling multiple modals
+
 const modal = document.querySelector(".modal");
 const openModal = document.querySelector(".modal-open");
 const closeModal = document.querySelector(".modal-close");
