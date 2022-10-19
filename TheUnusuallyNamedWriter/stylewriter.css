@@ -94,6 +94,11 @@ h1 span {
   grid-template: auto auto auto/ auto auto auto;
 }
 
+.blog-box:hover{
+  background-color: lightsteelblue;
+  color: white;
+}
+
 .blog-link{
   text-align: center;
 }
