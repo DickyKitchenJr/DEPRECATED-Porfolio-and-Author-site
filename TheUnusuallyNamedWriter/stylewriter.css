@@ -2,7 +2,7 @@
 h1{
   text-align: center;
   color: white;
-  background-image: url(../resources/images/woodspath.jpeg);
+  background-image: url(../resources/images/woodspath3.jpeg);
   background-repeat: no-repeat; 
   background-color: white;
   background-position: center;
@@ -10,6 +10,10 @@ h1{
   font-family: "Lora", Palatino, Georgia, serif;
   font-size: 3em;
   padding: 6%;
+  
+}
+
+h1:hover {
   animation: switch 3s linear infinite alternate-reverse;
 }
 
