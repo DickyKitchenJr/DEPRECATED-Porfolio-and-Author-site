@@ -1,38 +1,44 @@
-.background-img-holder{
-    background-image: url(JSlogo.png);
-    background-repeat: round;
-    background-size: 30%;
+.background-img-holder {
+  background-image: url(JSlogo.png);
+  background-repeat: round;
+  background-size: 30%;
 }
 
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
-.box1, .box2, .box3{
-    display: block;
-    background-color: hsla(0, 0%, 100%, 0.5);
-    backdrop-filter: sepia();
-    border: 2px solid black;
-    width: 70%;
-    margin: 1vw auto;
-    padding: 1vw;
+.box1,
+.box2,
+.box3 {
+  display: block;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  backdrop-filter: sepia();
+  border: 2px solid black;
+  width: 70%;
+  margin: 1vw auto;
+  padding: 1vw;
 }
 
-button{
-    display: block;
-    width: auto;
-    margin: 0 auto;
+button {
+  display: block;
+  width: auto;
+  margin: 0 auto;
 }
 
-h2, #joke, .name-ad,.new-name, #nameme{
-    text-align: center;
+h2,
+#joke,
+.name-ad,
+.new-name,
+#nameme {
+  text-align: center;
 }
 
-#nameme{
-    font-size: 1.75rem;
-    color: teal;
+#nameme {
+  font-size: 1.75rem;
+  color: teal;
 }
 
-details{
-    margin-bottom: 1rem;
+details {
+  margin-bottom: 1rem;
 }
