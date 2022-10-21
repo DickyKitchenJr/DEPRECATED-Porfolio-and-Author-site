@@ -2,7 +2,7 @@ body {
   background-image: url("../resources/images/patterned-background.png");
 }
 
-main{
+main {
   margin-left: 3%;
   margin-right: 3%;
 }
@@ -175,7 +175,7 @@ article,
 }
 
 @media only screen and (max-width: 500px) {
-  .project-blocks{
+  .project-blocks {
     width: 80%;
     margin: auto;
   }
@@ -198,7 +198,6 @@ article,
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
 }
-
 
 /* Modals */
 
