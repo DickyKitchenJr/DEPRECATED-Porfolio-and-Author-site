@@ -2,6 +2,10 @@ body {
   background-image: url("../resources/images/patterned-background.png");
 }
 
+main{
+  margin-left: 3%;
+  margin-right: 3%;
+}
 /* Page Banner Section */
 
 .landing-page-link {
@@ -106,10 +110,10 @@ article,
   }
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 500px) {
   .coding-language-box {
-    padding-left: 3.25rem;
-    padding-right: 3.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
   }
 
   .coding-h2 {
@@ -168,6 +172,13 @@ article,
   flex-flow: row;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+@media only screen and (max-width: 500px) {
+  .project-blocks{
+    width: 80%;
+    margin: auto;
+  }
 }
 
 .project-link {
