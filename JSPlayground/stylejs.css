@@ -8,6 +8,16 @@ header {
   text-align: center;
 }
 
+.welcome{
+  width: fit-content;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: hsla(0, 0%, 100%, 0.5);
+  backdrop-filter: sepia();
+  border: 2px solid black;
+}
+
 .box1,
 .box2,
 .box3 {
@@ -16,7 +26,7 @@ header {
   backdrop-filter: sepia();
   border: 2px solid black;
   width: 70%;
-  margin: 1vw auto;
+  margin: 7vw auto;
   padding: 1vw;
 }
 
@@ -25,6 +35,10 @@ header {
 .box3:hover {
   backdrop-filter: hue-rotate(80deg);
   font-weight: bold;
+  border-top: 3px solid hsl(54, 100%, 68%);
+  border-left: 3px solid hsl(54, 99%, 38%);
+  border-bottom: 3px solid hsl(54, 100%, 68%);
+  border-right: 3px solid hsl(54, 99%, 38%);
 }
 
 button {
