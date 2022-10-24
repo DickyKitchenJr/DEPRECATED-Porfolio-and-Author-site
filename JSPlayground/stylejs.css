@@ -6,16 +6,7 @@
 
 header {
   text-align: center;
-}
-
-.welcome{
-  width: fit-content;
-  padding: 1rem;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: hsla(0, 0%, 100%, 0.5);
-  backdrop-filter: sepia();
-  border: 2px solid black;
+  padding-top: 1.5vw;
 }
 
 .box1,
