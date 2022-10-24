@@ -24,6 +24,7 @@ header {
 .box2:hover,
 .box3:hover {
   backdrop-filter: hue-rotate(80deg);
+  font-weight: bold;
 }
 
 button {
